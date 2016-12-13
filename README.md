@@ -8,7 +8,7 @@ prediction value for facebook.
 
 This is a proof-of-concept version for now. 
 It works for one tab, but might get a bit confused it you open several 
-tabs with facebook (it still work on only one)
+tabs with facebook (it still works only in one)
 
 ## INSTALL
 
