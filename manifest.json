@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "rndlikr",
+  "version": "1.0",
+  "icons": {
+    "32": "icons/rndlikr-32.png"
+  },
+  
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["liker.js"]
+    }
+  ],
+  
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/rndlikr-32.png",
+    "default_title": "rndlikr active"
+  }, 
+    
+  "background": {
+    "scripts": ["background.js"]
+  }
+  
+ 
+}
