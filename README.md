@@ -8,11 +8,11 @@ prediction value for facebook.
 
 This is a proof-of-concept version for now. 
 It works for one tab, but might get a bit confused it you open several 
-tabs with facebook.
+tabs with facebook (it still work on only one)
 
 ## INSTALL
 
-There is no signed  package at the moment. To try it out, you have two possibilities:
+There is no signed package at the moment. To try it out, you have two possibilities (Firefox):
 
 1. Open Firefox and load `about:debugging` in the URL bar. Click the
    [Load Temporary Add-on](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox)
