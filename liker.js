@@ -17,8 +17,7 @@ myPort.onMessage.addListener(function(m) {
 	give_random_like();
   } else if (m.cmd == "info") {
 	alert("rndlikr active. clicked "+ lkr_count + 
-		" times in this session.\n" +
-		" Next click scheduled in " + Math.floor(m.next * 60) + " seconds."
+		" times in this session.\n"
 	);
   }
 });
