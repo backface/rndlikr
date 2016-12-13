@@ -1,6 +1,6 @@
 # rndlikr
 
-rndlikr is a webextendions/browser add-on that randomly likes posts of 
+rndlikr is a WebExtension/Browser Add-On that randomly likes posts of 
 your facebook feed by clicking the like button in random time intervals 
 (given facebook it opened in one of your browser tabs). The aim is to 
 obsufcate your real like patterns by random noise to decrease it's 
