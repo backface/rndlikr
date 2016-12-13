@@ -17,10 +17,11 @@ myPort.onMessage.addListener(function(m) {
   } else if (m.cmd == "info") {
 	alert("rndlikr active. clicked "+ lkr_count + 
 		" times in this session.\n" +
-		" Next click scheduled in " + Math.xfloor(m.next * 60) + " seconds."
+		" Next click scheduled in " + Math.floor(m.next * 60) + " seconds."
 	);
   }
 });
+
 
 document.body.addEventListener("click", function() {
   myPort.postMessage({greeting: "they clicked the page!"});
