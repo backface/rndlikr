@@ -14,6 +14,7 @@ myPort.onMessage.addListener(function(m) {
   console.log("rndlikr: In content script, received message from background script: " + m.cmd);
   if (m.cmd == "like") {
 	lkr_count += 1;
+	give_random_like();
   } else if (m.cmd == "info") {
 	alert("rndlikr active. clicked "+ lkr_count + 
 		" times in this session.\n" +
