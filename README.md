@@ -21,3 +21,7 @@ There is no signed package at the moment. To try it out, you have two possibilit
    [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext)
    tool, change into the rndlikr directory and type `web-ext run`. This will launch Firefox and
    install the extension automatically (temporarly).
+   
+###UPDATE
+You can find and download a (signed) package [here](m.ash.to/rndlikr/rndlikr-1.0-an+fx.xpi)
+Note: you have to download and install from file (Firefox won't allow a direct install)
