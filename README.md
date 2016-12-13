@@ -23,5 +23,5 @@ There is no signed package at the moment. To try it out, you have two possibilit
    install the extension automatically (temporarly).
    
 ###UPDATE
-You can find and download a (signed) package [here](m.ash.to/rndlikr/rndlikr-1.0-an+fx.xpi)
+You can find and download a (signed) package [here](http://m.ash.to/rndlikr/rndlikr-1.0-an+fx.xpi)
 Note: you have to download and install from file (Firefox won't allow a direct install)
